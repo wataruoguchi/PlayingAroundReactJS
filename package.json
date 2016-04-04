@@ -19,6 +19,10 @@
     "babel-preset-stage-0": "^6.5.0",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts" : {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot"
   }
 }
